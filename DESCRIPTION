@@ -1,0 +1,11 @@
+Package: LearnGitHubActions
+Type: Package
+Title: A Toy Package For Learning GH Actions
+Version: 0.1.0
+Author: J. Holden
+Maintainer: J. Holden <jeremy.holden@ontario.ca>
+Description: This package doesn't do much other than provide a few
+    simple functions that can be used for testing a variety of GitHub Actions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
