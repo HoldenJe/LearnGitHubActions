@@ -10,7 +10,7 @@ hello()
 string "Hello, world"
 }
 \description{
-Hello
+a trivial function for testing actions
 }
 \examples{
 hello()
