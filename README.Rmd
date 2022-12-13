@@ -1,0 +1,8 @@
+---
+title: "README"
+author: "Jeremy Holden"
+date: "`r Sys.Date()`"
+output: md_document
+---
+
+Dummy project to test github actions.
