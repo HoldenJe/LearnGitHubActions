@@ -7,6 +7,7 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
+devtools::load_all()
 #library(LearnGitHubActions)
 
 #test_check("LearnGitHubActions")
