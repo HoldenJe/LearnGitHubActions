@@ -2,7 +2,7 @@
 #'
 #' @return string "Hello, world"
 #' @export
-#'
+#' @description a trivial function for testing actions
 #' @examples
 #' hello()
 #'
