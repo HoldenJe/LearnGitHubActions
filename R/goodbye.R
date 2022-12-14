@@ -6,6 +6,6 @@
 #' @examples
 #' goodbye()
 #'
-goodbye <- function(){
+goodbye <- function() {
   print("Good-bye")
 }
