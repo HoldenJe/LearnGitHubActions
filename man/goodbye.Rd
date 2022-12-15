@@ -7,7 +7,7 @@
 goodbye()
 }
 \value{
-string Good-bye
+string Good-bye. That's all it does.
 }
 \description{
 Good-bye
