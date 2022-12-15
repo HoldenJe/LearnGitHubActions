@@ -1,6 +1,6 @@
 #' Good-bye
 #'
-#' @return string Good-bye
+#' @return string Good-bye. That's all it does.
 #' @export
 #'
 #' @examples
