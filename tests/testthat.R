@@ -7,9 +7,6 @@
 # * https://testthat.r-lib.org/reference/test_package.html#special-files
 
 library(testthat)
-devtools::load_all()
-#library(LearnGitHubActions)
+library(LearnGitHubActions)
 
-#test_check("LearnGitHubActions")
-
-test_dir(here::here('tests/testthat/'), stop_on_failure = TRUE)
+test_check("LearnGitHubActions")
