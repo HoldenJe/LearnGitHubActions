@@ -10,7 +10,7 @@ goodbye()
 string Good-bye. That's all it does.
 }
 \description{
-Good-bye
+adding a description to test GH-Action
 }
 \examples{
 goodbye()
