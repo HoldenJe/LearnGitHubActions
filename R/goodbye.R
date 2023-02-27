@@ -7,5 +7,5 @@
 #' goodbye()
 #'
 goodbye <- function() {
-  print("Good-bye")
-}
+# adding a poorly formatted comment
+print("Good-bye")}
