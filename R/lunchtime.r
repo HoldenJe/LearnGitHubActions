@@ -8,5 +8,5 @@
 #'
 lunchtime <- function() {
   print("It's lunch time")
-    # exit function
+  # exit function
 }
