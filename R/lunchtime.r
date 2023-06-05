@@ -10,5 +10,5 @@ lunchtime <- function() {
   # adding a poorly formatted comment
 
   print("It's lunch time")
-  #exit function
+  # exit function
 }
