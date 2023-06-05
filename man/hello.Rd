@@ -10,7 +10,7 @@ hello()
 string "Hello, world"
 }
 \description{
-a trivial function for testing Github actions
+a trivial function for testing Github actions. Simply adding text to see if GH-actions is triggered.
 }
 \examples{
 hello()
