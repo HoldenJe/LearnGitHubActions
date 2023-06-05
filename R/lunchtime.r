@@ -1,6 +1,6 @@
 #' Lunch Time
 #' @description adding a description to test GH-Action
-#' @return string "It's lunch time". That's all it does.
+#' @return string "It's lunch time". That's all it does. Adding some additional text to trigger GH-actions.
 #' @export
 #'
 #' @examples
