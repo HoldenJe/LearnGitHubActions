@@ -1,0 +1,35 @@
+name: Render README
+
+on:
+  push:
+    paths:
+      - README.Rmd
+
+jobs:
+  render-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up R
+      uses: r-lib/actions/setup-r@v2
+
+    - name: Install dependencies
+      run: |
+        Rscript -e 'install.packages("rmarkdown")'
+
+    - name: Render README.md
+      run: |
+        Rscript -e 'rmarkdown::render("README.Rmd")'
+
+    - name: Commit changes
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add README.md
+        git commit -m "rendered README.md"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
