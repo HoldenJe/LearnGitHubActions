@@ -1,7 +1,6 @@
 name: Render README
 
 on:
-  workflow_dispatch:
   push:
     paths:
       - README.Rmd
@@ -19,8 +18,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        Rscript -e 'install.packages(c("devtools", "ggplot2", "rmarkdown"))'
-        Rscript -e 'devtools::install_github("HoldenJe/elaacoustics")'
+        Rscript -e 'install.packages("rmarkdown")'
 
     - name: Render README.md
       run: |
